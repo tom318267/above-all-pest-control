@@ -1,0 +1,331 @@
+
+
+body {
+  background: -moz-linear-gradient(-45deg, rgba(69,165,255,1) 0%, rgba(242,244,248,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(69,165,255,1)), color-stop(100%, rgba(242,244,248,1)));
+background: -webkit-linear-gradient(-45deg, rgba(69,165,255,1) 0%, rgba(242,244,248,1) 100%);
+  background-size: cover;
+  overflow-x: hidden;
+
+}
+
+.wrapper {
+  overflow-x: hidden;
+  padding-bottom: 160px;
+}
+
+html {
+  min-height: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
+
+#above-logo {
+  margin: 0 auto;
+  margin-top: 5px;
+  display: block;
+}
+
+
+nav ul li {
+  display: inline;
+  font-family: 'American Typewriter', sans-serif;
+  font-size: 18px;
+  margin-right: 12px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  margin-right: 15px;
+}
+
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-none {
+  margin-right: -20px;
+}
+
+.navbar-light .navbar-nav .nav-link:link {
+  color: black;
+}
+
+
+.navbar-light .navbar-nav a.nav-link:hover {
+  color: white;
+}
+
+
+.navbar-light .navbar-nav .nav-link:active {
+  position: relative;
+  top: 1px;
+}
+
+span.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+#nobugsection {
+  width: 350px;
+  display: block;
+  margin: 30px auto;
+
+}
+
+#nobugspic {
+  margin-right: 10px;
+}
+
+#above-all-index strong {
+  font-size: 20px;
+}
+
+h3 {
+  display: inline;
+}
+
+div#nobugsection {
+  font-family: 'Sinhala MN', serif;
+  font-size: 1.75rem;
+}
+
+div#nobugsection h3 {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+div#paragraph p {
+  text-align: center;
+  font-size: 17px;
+  font-family: 'American Typewriter', sans-serif;
+}
+
+div#phone {
+   text-align: center;
+}
+
+div#phone h2 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 32px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/* PEST SERVICES SECTION */
+
+h1.display-4 {
+  font-size: 3em;
+}
+
+#inspect-para {
+  font-family:  'American Typewriter', sans-serif;
+  text-indent: 20px;
+  text-align: center;
+}
+
+div.container.list {
+  display: flex;
+  justify-content: center;
+}
+
+div.container.list ul li {
+  font-family: 'American Typewriter', sans-serif;
+  font-size: 15px;
+}
+
+div.inspect img {
+  width: 150px;
+}
+
+span#above {
+  font-weight: bold;
+}
+
+
+.lets-face-it {
+  font-family: 'American Typewriter', sans-serif;
+  text-align: left;
+  text-indent: 15px;
+}
+
+hr {
+  width: 85%;
+}
+
+#termitepic {
+  width: 175px;
+  float: left;
+  padding-right: 20px;
+  padding-top: 15px;
+}
+
+/* END PEST SERVICES SECTION */
+
+/* COUPONS SECTION */
+
+.coupon-page {
+  font-family:  'American Typewriter', sans-serif;
+}
+
+.coupon-head {
+  margin-top: 45px;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.coupons {
+  margin-top: 75px;
+}
+
+.let-us-know {
+  margin-top: 40px;
+}
+
+.coupon-div {
+  display: block;
+  padding: 10px;
+}
+
+.coupon-div img {
+  padding-right: 20px;
+}
+
+/* CONTACT US SECTION */
+
+.contact-page {
+  font-family:  'American Typewriter', sans-serif;
+}
+
+.contact-us {
+  font-size: 40px;
+}
+
+.contacts {
+  padding: 5px;
+  margin-bottom: -40px;
+}
+
+
+li {
+  color: black;
+  margin-right: 10px;
+}
+
+/* Terms and Conditions */
+
+.container.terms {
+  height: 500px;
+}
+
+.terms {
+  font-family: 'American Typewriter', sans-serif;
+}
+
+/* Footer Section  */
+
+
+footer {
+  padding: 40px 0;
+  background: #1c92d2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #357dff, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #357dff, #5994ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+
+footer nav.foot ul li {
+  color: black;
+  font-size: 15px;
+}
+
+footer nav.foot ul li a {
+  color: black;
+  font-size: 15px;
+}
+
+footer nav.foot ul li a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+
+nav.foot ul {
+  text-align: center;
+  padding: 0;
+  margin: 0 15px;
+}
+
+@media screen and (max-width: 400px) {
+  div.container img {
+    width: 200px;
+  }
+  #above-logo {
+    width: 300px;
+  }
+  #nobugspic {
+    width: 79px;
+  }
+
+  #termitepic {
+    width: 35%;
+  }
+
+  #inspect {
+    width: 130px;
+    padding-top: 40px;
+  }
+
+  .coupon-div img {
+    display: inline-block;
+    max-width: 100%;
+
+  }
+
+  .coupon-mobile {
+    width: 200px;
+  }
+
+  #initial {
+    padding-bottom: 15px;
+    padding-right: 0;
+  }
+
+  #termite {
+    padding-right:0;
+  }
+
+  .let-us-know {
+    padding: 0 15px;
+  }
+
+}
+
+@media screen and (max-width: 766px) {
+  #initial {
+    padding-bottom: 15px;
+    padding-right: 0;
+  }
+
+  #termite {
+    padding-right:0;
+  }
+}
+
+
+@media screen and (max-width: 991px) {
+  .navbar-light .navbar-nav a.nav-link:hover {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contacts {
+    margin-bottom: 15px;
+  }
+
+  .coupons img {
+    width: 70%;
+    margin-bottom: 15px;
+  }
