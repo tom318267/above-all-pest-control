@@ -340,8 +340,8 @@ nav.foot ul {
     font-size: 15px;
   }
 
-  .terms {
-    height: 600px;
+  .container.pt-5.terms {
+    height: 300px;
   }
 
   .terms h2 {
