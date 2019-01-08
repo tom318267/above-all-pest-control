@@ -291,6 +291,7 @@ nav.foot ul {
 
   #nobugsection {
     text-align: center;
+    margin-left: -12px;
   }
 
   div#paragraph p {
