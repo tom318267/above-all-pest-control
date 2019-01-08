@@ -290,7 +290,7 @@ nav.foot ul {
   }
 
 
-  p#inspect-para, .lets-face-it p, div.container.list ul li {
+  p#inspect-para, .lets-face-it p, div.container.list ul li, .let-us-know p {
     font-size: 14px;
   }
 
@@ -309,8 +309,16 @@ nav.foot ul {
 
   }
 
+  .coupon-head {
+    font-size: 30px;
+  }
+
   .coupon-mobile {
     width: 200px;
+  }
+
+   {
+    font-size:
   }
 
   #initial {
