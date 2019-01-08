@@ -101,7 +101,7 @@ div#nobugsection h3 {
 div#paragraph p {
   text-align: center;
   font-size: 17px;
-  font-family: 'American Typewriter', sans-serif;
+  font-family: 'American Typewriter Regular', sans-serif;
 }
 
 div#phone {
@@ -122,7 +122,7 @@ h1.display-4 {
 }
 
 #inspect-para {
-  font-family:  'American Typewriter', sans-serif;
+  font-family:  'American Typewriter Regular', sans-serif;
   text-indent: 20px;
   text-align: center;
 }
@@ -133,7 +133,7 @@ div.container.list {
 }
 
 div.container.list ul li {
-  font-family: 'American Typewriter', sans-serif;
+  font-family: 'American Typewriter Regular', sans-serif;
   font-size: 15px;
 }
 
@@ -147,7 +147,7 @@ span#above {
 
 
 .lets-face-it {
-  font-family: 'American Typewriter', sans-serif;
+  font-family: 'American Typewriter Regular', sans-serif;
   text-align: left;
   text-indent: 15px;
 }
@@ -168,7 +168,7 @@ hr {
 /* COUPONS SECTION */
 
 .coupon-page {
-  font-family:  'American Typewriter', sans-serif;
+  font-family:  'American Typewriter Regular', sans-serif;
 }
 
 .coupon-head {
@@ -197,7 +197,7 @@ hr {
 /* CONTACT US SECTION */
 
 .contact-page {
-  font-family:  'American Typewriter', sans-serif;
+  font-family:  'American Typewriter Regular', sans-serif;
 }
 
 .contact-us {
@@ -222,7 +222,7 @@ li {
 }
 
 .terms {
-  font-family: 'American Typewriter', sans-serif;
+  font-family: 'American Typewriter Regular', sans-serif;
 }
 
 /* Footer Section  */
