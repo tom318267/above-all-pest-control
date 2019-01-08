@@ -262,10 +262,27 @@ nav.foot ul {
     width: 200px;
   }
   #above-logo {
-    width: 300px;
+    width: 200px;
   }
   #nobugspic {
-    width: 79px;
+    width: 50px;
+  }
+
+  #nobugsection {
+    text-align: center;
+  }
+
+  div#paragraph p {
+    font-size: 14px;
+  }
+
+  #above-all-index strong {
+    font-size: 17px;
+  }
+
+  h3#no-bugs {
+    font-size: 25px!important;
+    padding-top: 6px;
   }
 
   #termitepic {
@@ -298,6 +315,12 @@ nav.foot ul {
 
   .let-us-know {
     padding: 0 15px;
+  }
+
+  footer nav.foot ul li a, footer nav.foot ul li {
+      font-size: 14px;
+    } {
+    font-size: 14px;
   }
 
 }
