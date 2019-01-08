@@ -285,12 +285,14 @@ nav.foot ul {
     padding-top: 6px;
   }
 
-  h1#free-inspections.display-4.text-center {
+  h1#free-inspections.display-4.text-center, .coupon-head, .contact-us {
     font-size: 30px;
   }
 
 
-  p#inspect-para, .lets-face-it p, div.container.list ul li, .let-us-know p {
+  p#inspect-para, .lets-face-it p, div.container.list ul li, .let-us-know p,
+  .form-horizontal, #name.form-control, #phone.form-control, #email.form-control,
+  #message.form-control, .phone-number h6, .email h6, .yelp h6 {
     font-size: 14px;
   }
 
@@ -309,16 +311,12 @@ nav.foot ul {
 
   }
 
-  .coupon-head {
-    font-size: 30px;
-  }
-
   .coupon-mobile {
     width: 200px;
   }
 
-   {
-    font-size:
+  .form-horizontal {
+    font-size: 14px;
   }
 
   #initial {
@@ -336,6 +334,10 @@ nav.foot ul {
 
   .let-us-know {
     padding: 0 15px;
+  }
+
+  button.btn.btn-primary.btn-lg {
+    font-size: 15px;
   }
 
   footer nav.foot ul li a, footer nav.foot ul li {
