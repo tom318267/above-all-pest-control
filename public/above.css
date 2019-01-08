@@ -99,6 +99,11 @@ h3 {
   display: inline;
 }
 
+#no-bugs {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px!important;
+}
+
 div#nobugsection {
   font-family: 'Sinhala MN', serif;
   font-size: 1.75rem;
