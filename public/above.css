@@ -344,6 +344,10 @@ nav.foot ul {
     font-size: 30px;
   }
 
+  .container.terms {
+    height: 300px;
+  }
+
   footer nav.foot ul li a, footer nav.foot ul li {
       font-size: 14px;
     } {
