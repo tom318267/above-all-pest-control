@@ -300,6 +300,11 @@ nav.foot ul {
     margin-left: -13px;
   }
 
+  div#phone h2 {
+    font-size: 22px;
+
+  }
+
   div#paragraph p {
     font-size: 14px;
   }
