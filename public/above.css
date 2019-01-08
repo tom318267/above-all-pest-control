@@ -285,12 +285,21 @@ nav.foot ul {
     padding-top: 6px;
   }
 
+  h1#free-inspections.display-4.text-center {
+    font-size: 30px;
+  }
+
+
+  p#inspect-para, .lets-face-it p, div.container.list ul li {
+    font-size: 14px;
+  }
+
   #termitepic {
     width: 35%;
   }
 
   #inspect {
-    width: 130px;
+    width: 100px;
     padding-top: 40px;
   }
 
@@ -311,6 +320,10 @@ nav.foot ul {
 
   #termite {
     padding-right:0;
+  }
+
+  #termitepic {
+    width: 90px;
   }
 
   .let-us-know {
