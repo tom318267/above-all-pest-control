@@ -9,6 +9,11 @@ background: -webkit-linear-gradient(-45deg, rgba(69,165,255,1) 0%, rgba(242,244,
 
 }
 
+@font-face {
+  font-family: "American Typewriter Regular";
+  src: url("/American Typewriter Regular.ttf");
+}
+
 .wrapper {
   overflow-x: hidden;
   padding-bottom: 160px;
@@ -30,7 +35,7 @@ html {
 
 nav ul li {
   display: inline;
-  font-family: 'American Typewriter', sans-serif;
+  font-family: 'American Typewriter Regular', sans-serif;
   font-size: 18px;
   margin-right: 12px;
 }
