@@ -285,14 +285,14 @@ nav.foot ul {
     padding-top: 6px;
   }
 
-  h1#free-inspections.display-4.text-center, .coupon-head, .contact-us {
+  h1#free-inspections.display-4.text-center, .coupon-head, .contact-us, .terms h2 {
     font-size: 30px;
   }
 
 
   p#inspect-para, .lets-face-it p, div.container.list ul li, .let-us-know p,
   .form-horizontal, #name.form-control, #phone.form-control, #email.form-control,
-  #message.form-control, .phone-number h6, .email h6, .yelp h6 {
+  #message.form-control, .phone-number h6, .email h6, .yelp h6, .terms p, .terms address, .terms span {
     font-size: 14px;
   }
 
@@ -338,6 +338,10 @@ nav.foot ul {
 
   button.btn.btn-primary.btn-lg {
     font-size: 15px;
+  }
+
+  .terms h2 {
+    font-size: 30px;
   }
 
   footer nav.foot ul li a, footer nav.foot ul li {
