@@ -341,7 +341,8 @@ nav.foot ul {
   }
 
   .container.pt-5.terms {
-    height: 275px;
+    height: 100%;
+    padding-bottom: 160px;
   }
 
   .terms h2 {
