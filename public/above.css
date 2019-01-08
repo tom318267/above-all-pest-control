@@ -344,16 +344,16 @@ nav.foot ul {
     font-size: 30px;
   }
 
-  .container.terms {
-    height: 300px;
-    margin-bottom: -40px;
-
-  }
 
   footer nav.foot ul li a, footer nav.foot ul li {
       font-size: 14px;
     } {
     font-size: 14px;
+  }
+
+  footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
 }
