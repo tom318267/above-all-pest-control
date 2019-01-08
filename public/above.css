@@ -19,6 +19,11 @@ background: -webkit-linear-gradient(-45deg, rgba(69,165,255,1) 0%, rgba(242,244,
   src: url("American Typewriter Bold.ttf");
 }
 
+@font-face {
+  font-family: "Helvetic Regular Font";
+  src: url("HELR45W.ttf");
+}
+
 
 .wrapper {
   overflow-x: hidden;
@@ -125,7 +130,8 @@ div#phone {
 }
 
 div#phone h2 {
-  font-family: 'Helvetica', sans-serif;
+  /* font-family: 'Helvetica', sans-serif; */
+  font-family: 'American Typewriter Regular', sans-serif;
   font-size: 32px;
   margin-top: 25px;
   margin-bottom: 25px;
