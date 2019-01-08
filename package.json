@@ -16,7 +16,6 @@
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "express-sanitizer": "^1.0.4",
-    "gulp": "^4.0.0",
     "mailgun-js": "^0.22.0"
   }
 }
