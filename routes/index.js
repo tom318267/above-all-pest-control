@@ -22,6 +22,10 @@ router.get("/terms", function(req, res){
   res.render("terms");
 });
 
+router.get("/termite-damage", function(req, res){
+  res.render("termite-damage");
+});
+
 router.get("/contact", function(req, res){
   res.render("contact");
 });
@@ -42,11 +46,12 @@ router.post("/contact", function(req, res){
       console.log(error);
     }
     console.log(body);
-    res.redirect("/");
-
+    return res.redirect("/");
   });
 
 });
+
+
 
 
 module.exports = router;
