@@ -1,6 +1,19 @@
 <% pageTitle= "Above All Pest Control" %>
 <% include ../partials/header %>
 
+<div class="container">
+    <% if(error && error.length > 0){ %>
+      <div class="alert alert-danger" role="alert">
+        <%= error %>
+      </div>
+    <% } %>
+    <% if(success && success.length > 0){ %>
+      <div class="alert alert-success" role="alert">
+        <%= success %>
+      </div>
+    <% } %>
+</div>
+
 <div class="wrapper">
   <div class="container">
     <div class="row">
@@ -13,9 +26,6 @@
     </div>
   </div>
 
-  <div id="message">
-
-  </div>
 
   <div class="container" id="paragraph">
     <div class="row">

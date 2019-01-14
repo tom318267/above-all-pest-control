@@ -41,11 +41,13 @@ router.post("/contact", function(req, res){
   };
 
 
+
   mailgun.messages().send(data, function (error, body) {
     if(error){
       console.log(error);
     }
     console.log(body);
+    req.flash("success", "Message Sent!");
     return res.redirect("/");
   });
 
