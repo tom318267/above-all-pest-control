@@ -18,6 +18,7 @@
     "express": "^4.16.4",
     "express-sanitizer": "^1.0.4",
     "express-session": "^1.15.6",
-    "mailgun-js": "^0.22.0"
+    "mailgun-js": "^0.22.0",
+    "wow.js": "^1.2.2"
   }
 }
