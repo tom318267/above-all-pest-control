@@ -36,7 +36,7 @@ router.post("/contact", function(req, res){
     from: req.body.email,
     phone: req.body.phone,
     subject: req.body.name,
-    to: "ogar318267@gmail.com",
+    to: "aboveallpc@hotmail.com",
     text: req.sanitize(req.body.message)
   };
 
