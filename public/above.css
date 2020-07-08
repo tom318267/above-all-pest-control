@@ -297,6 +297,18 @@ nav.foot ul {
   margin-top: 60px;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 0 200px 0;
+}
+
+.flex-container img {
+  width: 300px;
+  margin: 10px;
+}
+
 
 @media screen and (max-width: 425px) {
   div.container img {
@@ -404,10 +416,12 @@ nav.foot ul {
     margin: 0 auto;
   }
 
+
   .term-damage-container {
     margin-top: 30px;
     padding-bottom: 200px;
   }
+
 
   #termdam-head {
     font-size: 30px;
@@ -415,6 +429,10 @@ nav.foot ul {
 
   .term-damage-container p {
     font-size: 18px;
+  }
+
+  .flex-container {
+    margin-bottom: 10px;
   }
 
   footer nav.foot ul li a, footer nav.foot ul li {
