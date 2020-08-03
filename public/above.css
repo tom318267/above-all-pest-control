@@ -280,13 +280,8 @@ nav.foot ul {
   margin: 0 15px;
 }
 
-/* CAROUSEL SECTION */
+/* TERM DAMAGE SECTION */
 
-.carousel {
-  width: 450px;
-  height: 450px;
-  margin: 0 auto;
-}
 
 #termdam-head {
   font-family:  'American Typewriter Regular', sans-serif;
@@ -306,7 +301,14 @@ nav.foot ul {
 
 .flex-container img {
   width: 300px;
+  height: 300px;
   margin: 10px;
+}
+
+@media screen and (max-width: 425px) {
+  .flex-container {
+    margin: unset;
+  }
 }
 
 
@@ -408,12 +410,6 @@ nav.foot ul {
 
   .terms h2 {
     font-size: 30px;
-  }
-
-  .carousel {
-    width: 250px;
-    height: 250px;
-    margin: 0 auto;
   }
 
 
